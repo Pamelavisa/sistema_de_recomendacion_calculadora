@@ -895,7 +895,7 @@ elif menu == "📚 Recursos":
     tab1, tab2, tab3 = st.tabs(["📄 Cartilla Comparativa", "💡 Guía de Venta", "📊 Validaciones"])
     
     with tab1:
-        st.subheader("Cartilla Comparativa de Seguros Integrales 2024")
+        st.subheader("Cartilla Comparativa de Seguros Integrales 2026")
         
         if not crear_boton_descarga_pdf("Cartilla Comparativa Seguros Integrales_2024.pdf"):
             st.info("📋 La cartilla comparativa estará disponible próximamente.")
